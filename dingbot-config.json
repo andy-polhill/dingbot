@@ -1,17 +1,17 @@
 {
   "name": "Dingbot",
-  "device_id": "dingbot-1",
+  "device_id": "dingbot",
   "wifi": {
-    "ssid": "********",
-    "password": "********"
+    "ssid": "******",
+    "password": "******"
   },
   "mqtt": {
     "host": "m20.cloudmqtt.com",
     "port": 15546,
     "base_topic": "devices/",
     "auth": true,
-    "username": "dingbot",
-    "password": "D1nGB0T"
+    "username": "******",
+    "password": "******"
 },
   "ota": {
     "enabled": false

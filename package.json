@@ -1,11 +1,19 @@
 {
   "name": "dingbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESP8266 build monitor",
   "main": "server.js",
+  "repository": "https://github.com/thatguynamedandy/dingbot.git",
+  "author": "thatguynamedandy <andyp@brandwatch.com>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.4.2"
+  }
 }
